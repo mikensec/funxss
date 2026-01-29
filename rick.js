@@ -18,7 +18,7 @@
 
   const left = document.createElement("div");
   left.innerHTML = `
-    <div style="font-weight:700; font-size:15px;">✅ XSS PoC Executed</div>
+    <div style="font-weight:700; font-size:15px;">Your session has expired!</div>
     <div style="opacity:.9">Host: <b>${location.host}</b> &nbsp; Path: <b>${location.pathname}</b></div>
   `;
 
@@ -26,7 +26,7 @@
   right.style.cssText = `display:flex; gap:10px; align-items:center;`;
 
   const btn = document.createElement("button");
-  btn.textContent = "Rickroll me 🎵";
+  btn.textContent = "CLICK HERE";
   btn.style.cssText = `
     border: 0; border-radius: 10px;
     padding: 10px 12px;
