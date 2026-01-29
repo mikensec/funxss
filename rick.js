@@ -54,5 +54,5 @@
   document.documentElement.appendChild(wrap);
 
   // Tiny alert too, if you want it super obvious (comment out if you dislike alerts)
-  alert("XSS PoC executed (non-malicious). Never gonna give you up!");
+  //alert("XSS PoC executed (non-malicious). Never gonna give you up!");
 })();
